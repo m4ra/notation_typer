@@ -1,0 +1,15 @@
+DESCRIPTION
+	This programme contains the main python script (notation_typer.py) and the necessary sound and images libraries; recordings and symbols.
+Keep and run the python script from within the same directory where the recordings and symbols' libraries reside.
+	If you don't have pygame installed in your computer, follow the link below to compile the library for your operating system.
+http://www.pygame.org/wiki/Compilation
+	
+	Before running the programme you have to enter some info in the script notation_typer. Open it with a text editor and go at the end of the script under the section #CONSTANTS-TWEAK ME. Fill the gap of the fontpath with your fonts path, i.e fontpath = "/Library/Fonts/Liberation/LiberationSans-Regular.ttf", and save the changes. 
+	You can also change the mapping of the keys under the section #DATABASE OF KEY MAPPINGS TO SYMBOLS AND THEIR POSITIONS RELATING TO THE STAFF, in the "KeyProps" dictionary, i.e instead of "]" : ("Torso", LEFT, -3), you can put "{" : ("Torso", LEFT, -3). But be careful not to end up with the same key assigned to different symbols.
+	
+	To start the programme open a Terminal window, (if you are a Mac user this can be found in the Utilities of the Applications directory).
+Go to the directory where you have copied the project, i.e "cd /home/user/notation_typer/". Run "python notation_typer.py" and hit ENTER. Follow the instruction in the introduction window and start experiment with the symbols. You can quite the programme with the ESC key. Each time you end the programme the notation pages will be saved to the folder "prints" and they will be automatically printed if your computer is connected to a printer.  
+
+	------------------
+	m4ra, Athens, 2021
+	------------------
